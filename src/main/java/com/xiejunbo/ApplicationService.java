@@ -10,6 +10,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Date;
 
 
 @Configuration
@@ -21,7 +22,7 @@ public class ApplicationService extends SpringBootServletInitializer implements 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(ApplicationService.class);
         logger.info("==========================================================");
-        logger.info("[************* Spring boot Application started *************]");
+        logger.info("[************* Spring boot Application started " + new Date() + "*************]");
         logger.info("==========================================================");
     }
 
