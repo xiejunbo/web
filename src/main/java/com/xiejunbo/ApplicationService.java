@@ -22,7 +22,7 @@ public class ApplicationService extends SpringBootServletInitializer implements 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(ApplicationService.class);
         logger.info("==========================================================");
-        logger.info("[************* Spring boot Application started xiejunbo" + new Date() + "*************]");
+        logger.info("[*************test Spring boot Application started xiejunbo" + new Date() + "*************]");
         logger.info("==========================================================");
     }
 
